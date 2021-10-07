@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  /*font-size: calc(5px + 2vmin);*/
+  overflow: hidden;
+}
+.Home {
+  background-color: #83aed4;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  vertical-align: center;
+}
+.dark{
+  min-height: 100vh;
+  background-color: #83aed4;
+  vertical-align: center;
+}
+.light {
+  min-height: 100vh;
+  background-color: #c3d9ee;
+}
+.white {
+  min-height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.description {
+  margin: 5%;
+  /*font-size: calc(10px + 2vmin);*/
+  border: 2px solid #4082bc;
+  border-radius: 25px;
+  padding: 3%;
+}
+.description2 {
+  text-align: left;
+  /*font-size: calc(10px + 2vmin);*/
+  /*background: #6c9bc4;*/
+  /*background: #6c9bc4;*/
+  margin: 3%;
+  border: 2px solid #4082bc;
+  border-radius: 25px;
+  padding: 2%;
+}
+.Rules {
+  text-align: left;
+  padding: 7%;
+  background-color: #c3d9ee;
+}
+.rulesheader {
+  color: #4082bc;
+}
+.rulestext {
+  margin-top: 5%;
+  border: 2px solid #4082bc;
+  font-size: calc(4px + 2vmin);
+  border-radius: 25px;
+  padding: 3%;
+}
+.Tutorial {
+  text-align: left;
+  padding: 7%;
+  background-color: #83aed4;
+  color: white;
+}
+.tutorialheader {
+
+}
+.tutorialtext {
+  margin-top: 5%;
+  border: 2px solid #4082bc;
+  border-radius: 25px;
+  padding: 3%;
+  font-size: calc(5px + 2vmin);
+}
+.tutorialrow {
+  padding-left: 10%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tutorialcol {
+  flex:1;
+}
+.tutorialp{
+  padding-right: 5%;
+}
+.tutorialphoto {
+  height: 60vh;
+}
+.Options {
+  padding: 7%;
+  background-color: #c3d9ee;
+}
+.optionsheader {
+  text-align: left;
+  color: #4082bc;
+}
+.optionstext {
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  margin-right: -10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.radioOptions {
+  padding-top: 3%;
+  padding-left: 8%;
+  text-align: left;
+}
+.player {
+  flex: 1;
+  margin-right: 10%;
+}
+.react-switch {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.Game {
+  padding: 7%;
+  background-color: #ffffff;
+  /*background-color: #83aed4;*/
+}
+.gameheader {
+  text-align: left;
+  color: #4082bc;
+  /*color: #ffffff;*/
+}
+.clipboardButton {
+  text-align: center;
+}
+.gameRoom {
+  color: #000000;
+  text-align: left;
+}
+.gametext {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 5%;
+}
+.statusbar{
+  width: 30%;
+}
+.boardbar {
+  margin-left:15%;
+  margin-top: -9%;
+}
+.startButton {
+  margin-top: 5%;
+}
+.divide {
+  background-color: #4082bc;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
